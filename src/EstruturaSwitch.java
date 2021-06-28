@@ -23,6 +23,8 @@ public class EstruturaSwitch {
             case 3:
                 System.out.println("Você está indo muito bem");
                 break;
+            default:
+                System.out.println("Opção Errada");
         }
 
         leitor.close();
